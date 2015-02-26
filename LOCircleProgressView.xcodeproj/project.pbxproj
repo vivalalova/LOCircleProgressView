@@ -14,6 +14,7 @@
 		9E5578EF1A9F1877008647FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5578EE1A9F1877008647FF /* Images.xcassets */; };
 		9E5578F21A9F1877008647FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E5578F01A9F1877008647FF /* LaunchScreen.xib */; };
 		9E5578FE1A9F1877008647FF /* LOCircleProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5578FD1A9F1877008647FF /* LOCircleProgressViewTests.m */; };
+		9E55790A1A9F18A3008647FF /* LOCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5579091A9F18A3008647FF /* LOCircleProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9E5578F71A9F1877008647FF /* LOCircleProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOCircleProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5578FC1A9F1877008647FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E5578FD1A9F1877008647FF /* LOCircleProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOCircleProgressViewTests.m; sourceTree = "<group>"; };
+		9E5579081A9F18A3008647FF /* LOCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCircleProgressView.h; sourceTree = "<group>"; };
+		9E5579091A9F18A3008647FF /* LOCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCircleProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +84,9 @@
 		9E5578E01A9F1877008647FF /* LOCircleProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				9E5578E51A9F1877008647FF /* AppDelegate.h */,
-				9E5578E61A9F1877008647FF /* AppDelegate.m */,
-				9E5578E81A9F1877008647FF /* ViewController.h */,
-				9E5578E91A9F1877008647FF /* ViewController.m */,
-				9E5578EB1A9F1877008647FF /* Main.storyboard */,
-				9E5578EE1A9F1877008647FF /* Images.xcassets */,
-				9E5578F01A9F1877008647FF /* LaunchScreen.xib */,
-				9E5578E11A9F1877008647FF /* Supporting Files */,
+				9E5579081A9F18A3008647FF /* LOCircleProgressView.h */,
+				9E5579091A9F18A3008647FF /* LOCircleProgressView.m */,
+				9E5579071A9F188E008647FF /* demo */,
 			);
 			path = LOCircleProgressView;
 			sourceTree = "<group>";
@@ -117,6 +115,21 @@
 				9E5578FC1A9F1877008647FF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E5579071A9F188E008647FF /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				9E5578E51A9F1877008647FF /* AppDelegate.h */,
+				9E5578E61A9F1877008647FF /* AppDelegate.m */,
+				9E5578E81A9F1877008647FF /* ViewController.h */,
+				9E5578E91A9F1877008647FF /* ViewController.m */,
+				9E5578EB1A9F1877008647FF /* Main.storyboard */,
+				9E5578EE1A9F1877008647FF /* Images.xcassets */,
+				9E5578F01A9F1877008647FF /* LaunchScreen.xib */,
+				9E5578E11A9F1877008647FF /* Supporting Files */,
+			);
+			name = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				9E5578EA1A9F1877008647FF /* ViewController.m in Sources */,
 				9E5578E71A9F1877008647FF /* AppDelegate.m in Sources */,
+				9E55790A1A9F18A3008647FF /* LOCircleProgressView.m in Sources */,
 				9E5578E41A9F1877008647FF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

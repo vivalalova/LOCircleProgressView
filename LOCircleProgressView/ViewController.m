@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LOCircleProgressView.h"
 @interface ViewController ()
 
 @end
