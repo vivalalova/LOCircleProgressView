@@ -426,6 +426,7 @@
 				9E5579031A9F1877008647FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E5579041A9F1877008647FF /* Build configuration list for PBXNativeTarget "LOCircleProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +435,7 @@
 				9E5579061A9F1877008647FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
