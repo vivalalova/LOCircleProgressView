@@ -7,4 +7,6 @@ LOCircleProgressView is a circle progressView
 * reverse
 * animation
 
+![jpg](http://goo.gl/Ee5Faj)
+
 ![jpg](https://github.com/vivalalova/LOCircleProgressView/blob/master/LOCircleProgressView/Images.xcassets/image.imageset/image.png?raw=true)
